@@ -35,16 +35,6 @@
 			path = Hike;
 			sourceTree = "<group>";
 		};
-		F0A0E0BF2E49F48E00173889 /* HikeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HikeTests;
-			sourceTree = "<group>";
-		};
-		F0A0E0C92E49F48E00173889 /* HikeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HikeUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				F0A0E0B12E49F48C00173889 /* Hike */,
-				F0A0E0BF2E49F48E00173889 /* HikeTests */,
-				F0A0E0C92E49F48E00173889 /* HikeUITests */,
 				F0A0E0B02E49F48C00173889 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				F0A0E0BE2E49F48E00173889 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				F0A0E0BF2E49F48E00173889 /* HikeTests */,
-			);
 			name = HikeTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				F0A0E0C82E49F48E00173889 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F0A0E0C92E49F48E00173889 /* HikeUITests */,
 			);
 			name = HikeUITests;
 			packageProductDependencies = (
@@ -395,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BQ65WQZT4Z;
@@ -423,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BQ65WQZT4Z;
